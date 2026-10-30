@@ -1,0 +1,44 @@
+# Secrets and local configuration
+.env
+*.pem
+key.pem
+cert.pem
+
+# Python environments and build artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+venvs/
+build/
+dist/
+.coverage
+.pytest_cache/
+.ruff_cache/
+
+# Local runtime data, face data and captures (never publish personal data)
+data/
+known_faces/*
+!known_faces/.gitkeep
+saved pictures/
+captured_faces/
+*.pkl
+*.wav
+*.log
+
+# Downloaded model weights and datasets
+*.pt
+*.onnx
+*.engine
+*.tflite
+runs/
+datasets/
+
+# Editor / operating system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.cursor/
+.cache/

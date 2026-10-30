@@ -1,0 +1,15 @@
+# Core application dependencies (Raspberry Pi OS system packages are listed below).
+SpeechRecognition==3.10.4
+PyAudio==0.2.14
+groq==0.11.0
+opencv-python>=4.8.0
+ultralytics>=8.0.0
+Flask>=3.0.0
+numpy>=1.24.0
+
+# Raspberry Pi OS packages (install with apt, not pip, when available):
+#   python3-rpi.gpio
+#   python3-picamera2
+#   espeak
+#   alsa-utils
+#   portaudio19-dev
